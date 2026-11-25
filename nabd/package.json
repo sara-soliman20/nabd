@@ -1,0 +1,46 @@
+{
+  "name": "nabd",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "server": "node server/index.js",
+    "dev:all": "concurrently -n web,api \"vite\" \"node server/index.js\"",
+    "start": "node server/index.js",
+    "test": "node --test tests/nlp.test.js tests/llm.test.js tests/voice-guards.test.js",
+    "eval:nlp": "node scripts/eval-nlp.js",
+    "eval:unseen": "node scripts/eval-unseen.js",
+    "mock:gemini": "node scripts/mock-gemini.js",
+    "cap:sync": "npm run build && npx cap sync",
+    "gemini:models": "node scripts/gemini-models.js",
+    "llm:data": "node scripts/llm-build-data.js 800",
+    "llm:train": "python3 llm/train.py",
+    "llm:gradcheck": "python3 llm/train.py --gradcheck",
+    "llm:ref": "python3 llm/reference.py",
+    "check:i18n": "node scripts/check-i18n.js"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.0",
+    "lucide-react": "^0.400.0",
+    "express": "^4.19.2",
+    "dotenv": "^16.4.5",
+    "@fontsource/cairo": "^5.3.0",
+    "@capacitor/core": "^8.6.2",
+    "@capacitor/android": "^8.6.2",
+    "@fontsource/baloo-bhaijaan-2": "^5.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.4.0",
+    "tailwindcss": "^3.4.10",
+    "postcss": "^8.4.41",
+    "autoprefixer": "^10.4.20",
+    "concurrently": "^8.2.2",
+    "@capacitor/cli": "^8.6.2"
+  }
+}

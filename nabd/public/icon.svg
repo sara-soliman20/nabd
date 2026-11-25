@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512"><rect width="512" height="512" rx="112" fill="#FFD9E2"/><g transform="translate(66.0 60.88) scale(1.9)">
+<ellipse cx="100" cy="190" rx="46" ry="6" fill="#33252F" opacity=".12"/>
+<path d="M168 112 Q184 118 182 132" fill="none" stroke="#33252F" stroke-width="13" stroke-linecap="round"/><path d="M168 112 Q184 118 182 132" fill="none" stroke="#FF7C99" stroke-width="6" stroke-linecap="round"/><circle cx="182" cy="135" r="8" fill="#FF7C99" stroke="#33252F" stroke-width="4"/>
+<path d="M32 112 Q16 118 18 132" fill="none" stroke="#33252F" stroke-width="13" stroke-linecap="round"/><path d="M32 112 Q16 118 18 132" fill="none" stroke="#FF7C99" stroke-width="6" stroke-linecap="round"/><circle cx="18" cy="135" r="8" fill="#FF7C99" stroke="#33252F" stroke-width="4"/>
+<path d="M100 178 C40 134 12 100 12 66 C12 38 34 18 62 18 C80 18 94 28 100 42 C106 28 120 18 138 18 C166 18 188 38 188 66 C188 100 160 134 100 178 Z" fill="#FF6B8B" stroke="#33252F" stroke-width="6" stroke-linejoin="round"/>
+<path d="M40 60 C40 48 50 38 62 38" fill="none" stroke="#fff" stroke-opacity=".75" stroke-width="8" stroke-linecap="round"/>
+<g transform="rotate(-32 150 40)"><rect x="124" y="30" width="52" height="22" rx="8" fill="#FFE8A3" stroke="#33252F" stroke-width="4"/><rect x="140" y="30" width="20" height="22" fill="#FFD36B"/><circle cx="146" cy="38" r="1.8" fill="#33252F"/><circle cx="154" cy="38" r="1.8" fill="#33252F"/><circle cx="146" cy="45" r="1.8" fill="#33252F"/><circle cx="154" cy="45" r="1.8" fill="#33252F"/></g>
+<ellipse cx="74" cy="94" rx="9" ry="12" fill="#33252F"/><ellipse cx="126" cy="94" rx="9" ry="12" fill="#33252F"/><circle cx="77" cy="89" r="3.4" fill="#fff"/><circle cx="129" cy="89" r="3.4" fill="#fff"/>
+<ellipse cx="54" cy="114" rx="12" ry="7.5" fill="#FFB3C6"/><ellipse cx="146" cy="114" rx="12" ry="7.5" fill="#FFB3C6"/>
+<path d="M89 112 Q100 124 111 112" fill="none" stroke="#33252F" stroke-width="5.5" stroke-linecap="round"/></g></svg>

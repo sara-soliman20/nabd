@@ -1,0 +1,24 @@
+{
+  "id": "/",
+  "name": "نبض | الإسعافات الأولية",
+  "short_name": "نبض",
+  "description": "Nabd — simple first-aid steps, a smart assistant and emergency numbers.",
+  "lang": "ar",
+  "dir": "auto",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#FFF5F7",
+  "theme_color": "#D6335A",
+  "categories": ["medical", "health", "education"],
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "طوارئ | Emergency", "url": "/emergency", "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }] },
+    { "name": "اسأل نبض | Ask Nabd", "url": "/assistant", "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }] }
+  ]
+}

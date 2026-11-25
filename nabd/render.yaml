@@ -1,0 +1,18 @@
+# نشر بنقرة واحدة على Render (خطة مجانية). بعد الربط ضع GEMINI_API_KEY من لوحة Render (اختياري، للشات الذكي والصوت).
+services:
+  - type: web
+    name: nabd
+    runtime: node
+    plan: free
+    buildCommand: npm install --no-audit --no-fund && npm run build
+    startCommand: npm start
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_VERSION
+        value: 22
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: GROQ_API_KEY
+        sync: false
+      - key: GEMINI_MODEL
+        value: gemini-2.5-flash
