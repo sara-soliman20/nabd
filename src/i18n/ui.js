@@ -57,6 +57,7 @@ const ar = {
   // فيديوهات ومراجع وعن نبض
   'vid.title': 'فيديوهات تعليمية', 'vid.sub': 'كورس «أساسيات الإسعافات الأولية» من قناة إدراك (أحمد رمزي)، 45 فيديو.', 'vid.play': 'تشغيل قائمة الكورس', 'vid.open': 'فتح القائمة على YouTube',
   'vid.note': 'الفيديوهات تكميلية والحقوق لأصحابها، والمرجع في نبض هو صفحات الحالات.', 'video.play': 'تشغيل',
+  'vid.soon': 'هنضيف فيديوهات أكتر في المستقبل، ده قسم لسه بيكبر.',
   'books.title': 'المراجع والكتب', 'books.sub': 'أدلة وكتب إسعاف للقراءة الإضافية. محتوى نبض لا يعتمد على نصوصها، وهي هنا للرجوع إليها فقط.', 'books.pages': 'صفحة', 'books.open': 'فتح الكتاب',
   'about.title': 'عن نبض', 'about.mission.h': 'رسالتنا', 'about.mission': 'نبض تطبيق عربي مجاني يبسّط الإسعافات الأولية في خطوات واضحة، لتتصرف بثقة في أول دقائق الطوارئ، وهي الأهم لإنقاذ الحياة.',
   'about.offer.h': 'إيه اللي بيقدّمه؟', 'about.offer.1': 'مكتبة بأهم حالات الإسعاف: القلب والتنفس، الحساسية والوعي، النزيف والجروح، الحروق والحرارة، العظام والإصابات، التسمم واللدغات.',
@@ -71,6 +72,7 @@ const ar = {
   'voice.greeting': 'أهلاً! أنا نبض. احكيلي إيه اللي حصل، أو نتكلم في أي حاجة.', 'voice.step': 'الخطوة', 'voice.local': 'اتصل بالإسعاف 123 لو الحالة خطيرة. {title}. {steps}', 'voice.local.none': 'مفهمتش الحالة. لو في خطر اتصل بالإسعاف 123 حالاً، أو احكيلي اللي حصل بكلمات تانية.',
   'voice.local.note': 'رد من مكتبة نبض على جهازك (الشات الذكي غير متاح).', 'voice.err.gemini': 'تعذر الاتصال بالشات الذكي ({code}) فاستخدمت مكتبة نبض.',
   'voice.smart': 'بفهم أي لهجة أو لغة، اتكلم زي ما تحب.', 'voice.dialect': 'لهجتك', 'voice.err.fallback': 'التعرف الذكي على الصوت مش متاح دلوقتي، فكملنا بتعرف المتصفح. اختار لهجتك من القايمة.', 'voice.err.quota': 'الحصة المجانية للصوت خلصت دلوقتي. استنى شوية أو اكتب سؤالك تحت.', 'voice.err.mic': 'اسمح للمتصفح باستخدام المايك من إعدادات الموقع.', 'voice.err.net': 'التعرف على الصوت يحتاج إنترنت. اكتب سؤالك تحت لو المشكلة مستمرة.', 'voice.err.stt': 'تعذر التعرف على صوتك الآن. اكتب سؤالك تحت.',
+  'voice.soon': 'قريبا',
 }
 
 const en = {
@@ -123,6 +125,7 @@ const en = {
   'kit.progress': '{n} of {total} ready', 'kit.note': 'Medicines and doses vary with age, weight and health; ask a pharmacist or doctor before preparing or using them.', 'kit.clear': 'Clear ticks',
   'emg.title': 'Emergency', 'emg.sub': 'Everything you need in the first minutes.', 'emg.numbers': 'Important numbers in Egypt', 'emg.script': 'What to say when you call', 'emg.scene': 'First minutes at the scene', 'emg.quick': 'Quick check with questions',
   'vid.title': 'Learning videos', 'vid.sub': 'The “First Aid Basics” course from the Edrak channel (Ahmed Ramzy), 45 videos.', 'vid.play': 'Play the course playlist', 'vid.open': 'Open playlist on YouTube',
+  'vid.soon': 'More videos will be added in the future. This section is still growing.',
   'vid.note': 'Videos are supplementary and belong to their owners; Nabd’s reference is the case pages.', 'video.play': 'Play',
   'books.title': 'References & books', 'books.sub': 'First-aid guides and books for extra reading. Nabd’s content does not rely on their text; they are here for reference only.', 'books.pages': 'pages', 'books.open': 'Open the book',
   'about.title': 'About Nabd', 'about.mission.h': 'Our mission', 'about.mission': 'Nabd is a free Arabic first-aid app that turns first aid into clear steps, so you can act with confidence in the first minutes of an emergency, the ones that matter most for saving a life.',
@@ -137,5 +140,6 @@ const en = {
   'voice.greeting': 'Hi! I’m Nabd. Tell me what happened, or let’s chat about anything.', 'voice.step': 'Step', 'voice.local': 'Call the ambulance on 123 if it is serious. {title}. {steps}', 'voice.local.none': 'I did not catch the case. If there is danger call 123 now, or tell me what happened in other words.',
   'voice.local.note': 'Answer from the Nabd library on your device (smart chat unavailable).', 'voice.err.gemini': 'Could not reach the smart chat ({code}), so I used the Nabd library.',
   'voice.smart': 'I understand any dialect or language, just talk naturally.', 'voice.dialect': 'Your dialect', 'voice.err.fallback': 'Smart speech recognition is unavailable right now, so I switched to your browser’s recognition. Pick your dialect from the list.', 'voice.err.quota': 'The free voice quota is used up for now. Wait a bit or type your question below.', 'voice.err.mic': 'Allow the browser to use the microphone in the site settings.', 'voice.err.net': 'Speech recognition needs internet. Type your question below if this continues.', 'voice.err.stt': 'Could not recognise your voice right now. Type your question below.',
+  'voice.soon': 'Coming soon',
 }
 export const ui = { ar, en }
