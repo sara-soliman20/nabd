@@ -65,6 +65,11 @@ const ar = {
   'about.offer.2': 'مساعد ذكي بتقييم سريع بالأسئلة أو بوصف الحالة، وشات ومحادثة صوتية.', 'about.offer.3': 'اختبارات قصيرة مع شرح لكل إجابة.', 'about.offer.4': 'حقيبة إسعاف منزلية وقائمة متابعة.', 'about.offer.5': 'أرقام الطوارئ في مصر ومؤشر إيقاع للإنعاش.',
   'about.warn.h': 'تنبيه مهم', 'about.warn': 'نبض للتوعية والتعليم فقط، ولا يغني عن الطبيب ولا عن تدريب عملي. ننصح بحضور دورة إسعافات أولية تطبيقية، خصوصاً للإنعاش القلبي الرئوي.', 'about.cta': 'تصفح المكتبة',
   'nf.title': 'الصفحة دي مش موجودة', 'nf.home': 'ارجع للرئيسية',
+  'about.team.h': 'فريق العمل',
+  'about.team.idea': 'فكرة طلاب كلية الصيدلة',
+  'about.team.sup': 'تحت إشراف د. أمير الجندي',
+  'about.team.dev': 'تصميم وتنفيذ',
+
   // الصوتي
   'voice.title': 'نبض الصوتي', 'voice.sub': 'اتكلم بأي لهجة وهيفهمك ويرد عليك بنفس لهجتك، وتقدر تقاطعه في أي وقت.', 'voice.start': 'ابدأ المحادثة الصوتية', 'voice.end': 'إنهاء المحادثة',
   'voice.idle': 'اضغط وابدأ الكلام', 'voice.listening': 'بسمعك... اتكلم', 'voice.thinking': 'ثانية واحدة...', 'voice.speaking': 'نبض بيتكلم (تقدر تقاطعه)',
@@ -142,7 +147,7 @@ const en = {
   'voice.local.note': 'Answer from the Nabd library on your device (smart chat unavailable).', 'voice.err.gemini': 'Could not reach the smart chat ({code}), so I used the Nabd library.',
   'voice.smart': 'I understand any dialect or language, just talk naturally.', 'voice.dialect': 'Your dialect', 'voice.err.fallback': 'Smart speech recognition is unavailable right now, so I switched to your browser’s recognition. Pick your dialect from the list.', 'voice.err.quota': 'The free voice quota is used up for now. Wait a bit or type your question below.', 'voice.err.mic': 'Allow the browser to use the microphone in the site settings.', 'voice.err.net': 'Speech recognition needs internet. Type your question below if this continues.', 'voice.err.stt': 'Could not recognise your voice right now. Type your question below.',
   'voice.soon': 'Coming soon',
-   'nav.voice': 'Voice' ← 'nav.voice': 'Voice (soon)',
+  'nav.voice': 'Voice' ← 'nav.voice': 'Voice (soon)','about.team.idea': 'An idea by pharmacy students','about.team.sup': 'Supervised by Dr. Amir El-Gendy','about.team.dev': 'Designed and built by',
 
 }
 export const ui = { ar, en }
