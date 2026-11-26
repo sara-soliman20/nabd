@@ -8,5 +8,5 @@ export default function Videos() {
     <PageHead emoji="🎬" tone="sky" title={t('vid.title')} text={t('vid.sub')} />
     <VideoEmbed src={`https://www.youtube-nocookie.com/embed/videoseries?list=${PLAYLIST_ID}`} title={t('vid.play')} />
     <a href={PLAYLIST_URL} target="_blank" rel="noreferrer" className="btn btn-block">{t('vid.open')}</a>
-    <p className="text-sm text-muted">{t('vid.note')}</p></div>)
+    <p className="text-sm text-muted">{t('vid.note')}</p><p className="text-sm text-muted">{t('vid.soon')}</p></div>)
 }
