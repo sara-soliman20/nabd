@@ -58,7 +58,7 @@ const ar = {
   'vid.title': 'فيديوهات تعليمية', 'vid.sub': 'كورس «أساسيات الإسعافات الأولية» من قناة إدراك (أحمد رمزي)، 45 فيديو.', 'vid.play': 'تشغيل قائمة الكورس', 'vid.open': 'فتح القائمة على YouTube',
   'vid.note': 'الفيديوهات تكميلية والحقوق لأصحابها، والمرجع في نبض هو صفحات الحالات.', 'video.play': 'تشغيل',
   'vid.soon': 'هنضيف فيديوهات أكتر في المستقبل، ده قسم لسه بيكبر.',
-  'nav.voice': 'الصوتي' ← 'nav.voice': 'الصوتي (قريبا)'
+  'nav.voice': 'الصوتي (قريبا)'
   'books.title': 'المراجع والكتب', 'books.sub': 'أدلة وكتب إسعاف للقراءة الإضافية. محتوى نبض لا يعتمد على نصوصها، وهي هنا للرجوع إليها فقط.', 'books.pages': 'صفحة', 'books.open': 'فتح الكتاب',
   'about.title': 'عن نبض', 'about.mission.h': 'رسالتنا', 'about.mission': 'نبض تطبيق عربي مجاني يبسّط الإسعافات الأولية في خطوات واضحة، لتتصرف بثقة في أول دقائق الطوارئ، وهي الأهم لإنقاذ الحياة.',
   'about.offer.h': 'إيه اللي بيقدّمه؟', 'about.offer.1': 'مكتبة بأهم حالات الإسعاف: القلب والتنفس، الحساسية والوعي، النزيف والجروح، الحروق والحرارة، العظام والإصابات، التسمم واللدغات.',
@@ -147,7 +147,10 @@ const en = {
   'voice.local.note': 'Answer from the Nabd library on your device (smart chat unavailable).', 'voice.err.gemini': 'Could not reach the smart chat ({code}), so I used the Nabd library.',
   'voice.smart': 'I understand any dialect or language, just talk naturally.', 'voice.dialect': 'Your dialect', 'voice.err.fallback': 'Smart speech recognition is unavailable right now, so I switched to your browser’s recognition. Pick your dialect from the list.', 'voice.err.quota': 'The free voice quota is used up for now. Wait a bit or type your question below.', 'voice.err.mic': 'Allow the browser to use the microphone in the site settings.', 'voice.err.net': 'Speech recognition needs internet. Type your question below if this continues.', 'voice.err.stt': 'Could not recognise your voice right now. Type your question below.',
   'voice.soon': 'Coming soon',
-  'nav.voice': 'Voice' ← 'nav.voice': 'Voice (soon)','about.team.idea': 'An idea by pharmacy students','about.team.sup': 'Supervised by Dr. Amir El-Gendy','about.team.dev': 'Designed and built by',
+  'nav.voice': 'Voice (soon)',
+  'about.team.idea': 'An idea by pharmacy students',
+  'about.team.sup': 'Supervised by Dr. Amir El-Gendy',
+  'about.team.dev': 'Designed and built by',
 
 }
 export const ui = { ar, en }
